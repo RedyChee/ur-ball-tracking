@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="ball">
+
+  <link name="green_ball">
+    <visual>
+      <origin xyz="5 5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+      <material name="green">
+            <color rgba="0 1 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="5 5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+    </collision>   
+  </link>
+  
+  <link name="red_ball">
+    <visual>
+      <origin xyz="5 -5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+      <material name="red">
+            <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="5 -5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+    </collision>   
+  </link>
+  
+  <link name="dark_blue_ball">
+    <visual>
+      <origin xyz="-5 -5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+      <material name="dark blue">
+            <color rgba="0 0 0.75 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-5 -5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+    </collision>   
+  </link>
+  
+  <link name="yellow_ball">
+    <visual>
+      <origin xyz="-5 5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+      <material name="yellow">
+            <color rgba="1 1 0.5 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-5 5 0.1" rpy="0 0 0">
+      <geometry>
+        <sphere radius="5.0"/>
+      </geometry>
+    </collision>   
+  </link>
+  
+</robot>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ur_ball_description</name>
+  <version>1.0.0</version>
+  <description>The ur_ball_description package</description>
+  
+  <author>Redy Chee</author>
+  <maintainer email="cheesungyeng@gmail.com">Redy Chee</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">https://github.com/RedyChee/ur-ball-tracking</url>
+  <url type="bugtracker">https://github.com/RedyChee/ur-ball-tracking/issues</url>
+  <url type="repository">https://github.com/RedyChee/ur-ball-tracking</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>urdf</exec_depend>
+  <exec_depend>xacro</exec_depend>
+
+</package>
